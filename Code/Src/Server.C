@@ -4,6 +4,7 @@
 
 Server::Server(const string& a_path_fifo, const string& a_port, const string& a_mode, const bool& a_verbosity) : hv_controller(a_port, a_mode), path_fifo_server(a_path_fifo), mode(a_mode), verbosity(a_verbosity)
 {
+  verbosity = true;
   Initialization();
 }//Server::Server()
 
@@ -169,6 +170,7 @@ void Server::Initialization()
 {
   cout << "Server::Initialize server." << endl;
   cout << "Server::Mode = " << mode << endl;
+  cout << "Server::Verbosity = " << verbosity << endl;
   cout << "Server::Start Initialization." << endl;
 
   //make FIFO for server
@@ -231,8 +233,7 @@ void Server::Register_Client(const string& msg)
       throw error.c_str();
     }
 
-  string transmit = "##OK## Successfully registor client #Ch." + to_string(channel) +
-    " Mode=" + mode;
+  string transmit = "##OK## Successfully registor client #Ch." + to_string(channel) + " Mode=" + mode;
 
   Transmit_To_Client(channel, transmit);
   
