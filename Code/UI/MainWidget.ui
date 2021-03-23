@@ -28,7 +28,7 @@
     <rect>
      <x>0</x>
      <y>10</y>
-     <width>951</width>
+     <width>1311</width>
      <height>20</height>
     </rect>
    </property>
@@ -76,7 +76,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_DG_VSet"/>
+           <widget class="QTextEdit" name="TE_DG_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_2">
@@ -97,7 +103,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_DG_VMon"/>
+           <widget class="QTextBrowser" name="TB_DG_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_3">
@@ -115,7 +127,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_DG_IMon"/>
+           <widget class="QTextBrowser" name="TB_DG_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label">
@@ -173,7 +191,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout_2">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_GEM1_VSet"/>
+           <widget class="QTextEdit" name="TE_GEM1_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_4">
@@ -194,7 +218,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_GEM1_VMon"/>
+           <widget class="QTextBrowser" name="TB_GEM1_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_5">
@@ -212,7 +242,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_GEM1_IMon"/>
+           <widget class="QTextBrowser" name="TB_GEM1_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label_6">
@@ -249,7 +285,7 @@
      </spacer>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="VL_TR1">
+     <layout class="QVBoxLayout" name="VL_TR1G">
       <item>
        <widget class="QLabel" name="label_drift_gap_4">
         <property name="font">
@@ -285,7 +321,13 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_TR1_VSet"/>
+           <widget class="QTextEdit" name="TE_TR1G_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_10">
@@ -306,7 +348,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_TR1_VMon"/>
+           <widget class="QTextBrowser" name="TB_TR1G_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_11">
@@ -324,7 +372,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_TR1_IMon"/>
+           <widget class="QTextBrowser" name="TB_TR1G_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
@@ -367,7 +421,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout_3">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_GEM2_VSet"/>
+           <widget class="QTextEdit" name="TE_GEM2_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_7">
@@ -388,7 +448,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_GEM2_VMon"/>
+           <widget class="QTextBrowser" name="TB_GEM2_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_8">
@@ -406,7 +472,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_GEM2_IMon"/>
+           <widget class="QTextBrowser" name="TB_GEM2_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label_9">
@@ -443,7 +515,7 @@
      </spacer>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="VL_TR2">
+     <layout class="QVBoxLayout" name="VL_TR2G">
       <item>
        <widget class="QLabel" name="label_drift_gap_5">
         <property name="font">
@@ -464,7 +536,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout_5">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_TR2_VSet"/>
+           <widget class="QTextEdit" name="TE_TR2G_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_13">
@@ -485,7 +563,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_TR2_VMon"/>
+           <widget class="QTextBrowser" name="TB_TR2G_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_14">
@@ -503,7 +587,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_TR2_IMon"/>
+           <widget class="QTextBrowser" name="TB_TR2G_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label_15">
@@ -561,7 +651,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout_7">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_GEM3_VSet"/>
+           <widget class="QTextEdit" name="TE_GEM3_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_19">
@@ -582,7 +678,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_GEM3_VMon"/>
+           <widget class="QTextBrowser" name="TB_GEM3_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_20">
@@ -600,7 +702,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_GEM3_IMon"/>
+           <widget class="QTextBrowser" name="TB_GEM3_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label_21">
@@ -637,7 +745,7 @@
      </spacer>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout_6">
+     <layout class="QVBoxLayout" name="VL_IG">
       <item>
        <widget class="QLabel" name="label_drift_gap_6">
         <property name="font">
@@ -658,7 +766,13 @@
         <item>
          <layout class="QFormLayout" name="formLayout_6">
           <item row="0" column="1">
-           <widget class="QTextEdit" name="TE_Induction_VSet"/>
+           <widget class="QTextEdit" name="TE_IG_vset">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_16">
@@ -679,7 +793,13 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QTextBrowser" name="TB_Induction_VMon"/>
+           <widget class="QTextBrowser" name="TB_IG_vmon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_17">
@@ -697,7 +817,13 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QTextBrowser" name="TB_Induction_IMon"/>
+           <widget class="QTextBrowser" name="TB_IG_imon">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </widget>
           </item>
           <item row="0" column="0">
            <widget class="QLabel" name="label_18">
@@ -725,7 +851,7 @@
   <widget class="QPushButton" name="button_update">
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>660</x>
      <y>340</y>
      <width>101</width>
      <height>31</height>
@@ -738,7 +864,7 @@
   <widget class="QPushButton" name="button_start">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>550</x>
      <y>340</y>
      <width>101</width>
      <height>31</height>

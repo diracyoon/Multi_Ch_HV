@@ -4,8 +4,7 @@
 
 Server::Server(const string& a_path_fifo, const string& a_port, const string& a_mode, const bool& a_verbosity) : hv_controller(a_port, a_mode), path_fifo_server(a_path_fifo), mode(a_mode), verbosity(a_verbosity)
 {
-  verbosity = true;
-  Initialization();
+   Initialization();
 }//Server::Server()
 
 //////////

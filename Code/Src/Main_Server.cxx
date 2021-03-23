@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 
   bool verbosity;
   if(argc==2||argc==3) verbosity = false;
-  else if(argc=4) verbosity = true;
+  else if(argc=4) verbosity = argv[3];
   
   try
     {

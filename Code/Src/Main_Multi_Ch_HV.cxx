@@ -15,8 +15,19 @@ int main(int argc, char* argv[])
       return -1;
     }
 
-  Multi_Ch_HV multi_ch_hv(path, true);
-  multi_ch_hv.Run();  
-
+  try
+    {
+      Multi_Ch_HV multi_ch_hv(path);
+      multi_ch_hv.Run();  
+    }
+  catch(const string& error)
+    {
+      cout << error << endl;
+    }
+  catch(const char* error)
+    {
+      cout << error << endl;
+    }
+  
   return 0;
 }
